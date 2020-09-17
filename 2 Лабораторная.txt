@@ -1,6 +1,6 @@
 <?php
 
-    echo "Laboratornaya rabota ¹2 \n";
+    echo "Laboratornaya rabota 2 \n";
     echo "Vvedite nomer mesyatsa, moya zadacha vivesti vremya goda (Spring, Summer i t.d) \n";
     $int= $_POST['int'];
     echo "Vremya goda: ";

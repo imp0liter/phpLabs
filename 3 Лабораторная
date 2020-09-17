@@ -1,0 +1,12 @@
+<?php 
+
+    echo "Laboratornaya rabota 3 \n";
+    echo "Для данного n найти сумму 1+2+3+.+n. например для n 10 ответ равен 55 \n";
+    $schet= 0;
+    echo "Vvedite Chislo n \n";
+    $a= $_POST['a'];
+    echo "Otvet: "; 
+    for ($i=0; $i<$a; $i++) { $schet = ($schet + $i); }
+    echo $schet;
+    
+?>

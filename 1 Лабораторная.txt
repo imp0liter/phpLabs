@@ -1,6 +1,6 @@
 <?php
 
-    echo "Laboratornaya rabota ¹1 \n";
+    echo "Laboratornaya rabota 1 \n";
     echo "Vvedite tri chisla, chto bi ya nashel srednee arifmeticheskoe etih chisel, a tak je raznost summi pervogo i utroennogo vtorogo chisla \n";
     $a= $_POST['a'];
     $b= $_POST['b'];;

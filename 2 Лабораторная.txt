@@ -1,44 +1,45 @@
 <?php
 
-    echo "Лабораторная работа №2 \n";
-    echo "Введите номер месяца, моя задача вывести название поры года (весна лето и т.д) \n";
-    $int= $_POST['int'];;
+    echo "Laboratornaya rabota №2 \n";
+    echo "Vvedite nomer mesyatsa, moya zadacha vivesti vremya goda (Spring, Summer i t.d) \n";
+    $int= $_POST['int'];
+    echo "Vremya goda: ";
     switch ($int) {
     case 1:
-        echo 'Зима';
+        echo 'Winter';
         break;
     case 2:
-        echo 'Зима';
+        echo 'Winter';
         break;
     case 3:
-        echo 'Весна';
+        echo 'Spring';
         break;
     case 4:
-        echo 'Весна';
+        echo 'Spring';
         break;
     case 5:
-        echo 'Весна';
+        echo 'Spring';
         break;
     case 6:
-        echo 'Лето';
+        echo 'Summer';
         break;
     case 7:
-        echo 'Лето';
+        echo 'Summer';
         break;
     case 8:
-        echo 'Лето';
+        echo 'Summer';
         break;
     case 9:
-        echo 'Осень';
+        echo 'Autumn';
         break;
     case 10:
-        echo 'Осень';
+        echo 'Autumn';
         break;
     case 11:
-        echo 'Осень';
+        echo 'Autumn';
         break;
     case 12:
-        echo 'Зима';
+        echo 'Winter';
         break;
     }
 ?>

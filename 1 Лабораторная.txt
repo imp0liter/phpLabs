@@ -1,18 +1,15 @@
 <?php
 
-    echo "Лабораторная работа №1 \n";
-    echo "Введите три числа, чтобы я нашел среднее арифметическое этих чисел, а также разность удвоенной суммы первого и третьего чисел и утроенного второго числа \n";
+    echo "Laboratornaya rabota №1 \n";
+    echo "Vvedite tri chisla, chto bi ya nashel srednee arifmeticheskoe etih chisel, a tak je raznost summi pervogo i utroennogo vtorogo chisla \n";
     $a= $_POST['a'];
     $b= $_POST['b'];;
     $c= $_POST['c'];;
     $sr= ($a + $b + $c)/3;
-    echo "Среднее арифметическое: ";
+    echo "Srednyee arifmeticheskoe: ";
     echo $sr; echo "\n";
     $razn= 2*($a+$c) - 3*$b;
-    echo "Разность: ";
+    echo "Raznost: ";
     echo $razn; echo "\n";
-    $utroen= $b * 3;
-    echo "Утроенное второе число: ";
-    echo $utroen; echo "\n";
     
 ?>
